@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container ">
+      <h3 class="mb-4">Registration Here</h3>
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="inputFirstName">
+            </div>
+            <div class="col-md-4">
+                <label for="middleName" class="form-label">Middle Name</label>
+                <input type="text" class="form-control" id="inputMiddleName">
+            </div>
+            <div class="col-md-4">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName">
+            </div>
+            <div class="row mt-3">
+
+                <div class="col-md-2">
+                    <label for="DateofBirth" class="form-label">Date of Birth</label>
+                    <select class="form-select" name="birthMonth">
+                        <option selected disabled>Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <label for="DateofBirth" class="form-label">-</label>
+                    <select name="birthDay" class="form-select">
+                        <option selected disabled>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <label for="DateofBirth" class="form-label">-</label>
+                    <select name="birthYear" class="form-select">
+                        <option selected disabled>Year</option>
+                        <option>2022</option>
+                        <option>2021</option>
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                        <option>1998</option>
+
+                    </select>
+                </div>
+            <div class="col-md-4">
+                <label for="nationality" class="form-label">Nationality</label>
+                <input type="text" class="form-control" id="nationality">   
+            </div>
+            <div class="col-md-2">
+              <label for="" class="form-label">Blood Group</label>
+              <select class="form-select">
+                <option disabled selected>Select Blood Group</option>
+                <option value="A-">A-</option>
+                <option value="A+">A+</option>
+                <option value="B-">B-</option>
+                <option value="B+">B+</option>
+                <option value="O-">O-</option>
+                <option value="O+">O+</option>
+                <option value="AB-">AB-</option>
+                <option value="AB+">AB+</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+                <label for="gender" class="form-label">Gender</label> <br>
+                <input type="radio" id="male" name="gender" class="form-check-input">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" class="form-check-input">
+                <label for="female">Female</label>
+            </div>
+            
+        </div>
+
+        <div class="col-md-6">
+          <label for="" class="form-label">Father's Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="" class="form-label">Mother's Name</label>
+          <input type="text" class="form-control">
+        </div>
+            <div class="col-md-4">
+              <label for="inputEmail" class="form-label">Student's E-mail</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-md-4">
+              <label for="inputMobile" class="form-label">Student's Contact No.</label>
+              <input type="tel" class="form-control" id="inputMobile">
+            </div>
+            <div class="col-md-4">
+              <label for="inputGurdMobile" class="form-label">Parent's / Guardian's Contact No.</label>
+              <input type="tel" class="form-control" id="inputMobile">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1212 Dhaka, Bangladesh">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected disabled>Choose...</option>
+                <option>Dhaka</option>
+                <option>Rajshahi</option>
+                <option>Khulna</option>
+                <option>Rangpur</option>
+                <option>Sylhet</option>
+                <option>Chittagong</option>
+                <option>Braishal</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+              <label for="" class="form-label">SSC / Dakhil / Equivalent</label>
+              <select class="form-select">
+                <option disabled selected>Select Examination</option>
+                <option value="O'Level">O'Level</option>
+                <option value="SSC / Dakhil">SSC / Dakhil</option>
+                <option value="SSC (Vocational)">SSC (Vocational)</option>
+                <option value="SSC (Open University)">SSC (Open University)</option>
+              </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Registration Number</label>
+              <input type="number" class="form-control">
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Passing Year</label>
+              <select name="" id="" class="form-select">
+                <option selected disabled>Select Year</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Board</label>
+              <select class="form-select">
+                  <option selected disabled>Select Board</option>
+                  <option value="Barisal">Barisal</option>
+                  <option value="Chittagong">Chittagong</option>
+                  <option value="Comilla">Comilla</option>
+                  <option value="Dhaka">Dhaka</option>
+                  <option value="Dinajpur">Dinajpur</option>
+                  <option value="Jessore">Jessore</option>
+                  <option value="Mymensingh">Mymensingh</option>
+                  <option value="Rajshahi">Rajshahi</option>
+                  <option value="Sylhet">Sylhet</option>
+                  <option value="Madrasah">Madrasah</option>
+                  <option value="Technical">Technical</option>
+                  <option value="DIBS(Dhaka)">DIBS(Dhaka)</option></select>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">GPA</label>
+              <input class="form-control" type="number" name="">
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="" class="form-label">HSC / Diploma / Equivalent </label>
+                <select class="form-select">
+                  <option disabled selected>Select Examination</option>
+                  <option value="A'Level">A'Level</option>
+                  <option value="HSC / Alim">HSC / Alim</option>
+                  <option value="HSC (Vocational)">HSC (Vocational)</option>
+                  <option value="HSC (Open University)">HSC (Open University)</option>
+                  <option value="HSC (BM)">HSC (BM)</option>
+                  <option value="Diploma in Commerce">Diploma in Commerce</option>
+                  <option value="Diploma in Business Studies">Diploma in Business Studies</option>
+                  <option value="Diploma In Engineering">Diploma In Engineering</option>
+                  <option value="Diploma In Textile (Garments)">Diploma In Textile (Garments)</option>
+                  <option value="Diploma In Textile">Diploma In Textile</option>
+                  <option value="Diploma In Textile (Jute)">Diploma In Textile (Jute)</option>
+                  <option value="Diploma In Agriculture">Diploma In Agriculture</option>
+                  <option value="Diploma In Fisheries">Diploma In Fisheries</option>
+                  <option value="Diploma In Forestry">Diploma In Forestry</option>
+                  <option value="Basic Trade 360 Hours">Basic Trade 360 Hours</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Registration Number</label>
+              <input type="number" class="form-control">
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Passing Year</label>
+              <select name="" id="" class="form-select">
+                <option selected disabled>Select Year</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">Board</label>
+              <select class="form-select">
+                  <option selected disabled>Select Board</option>
+                  <option value="Barisal">Barisal</option>
+                  <option value="Chittagong">Chittagong</option>
+                  <option value="Comilla">Comilla</option>
+                  <option value="Dhaka">Dhaka</option>
+                  <option value="Dinajpur">Dinajpur</option>
+                  <option value="Jessore">Jessore</option>
+                  <option value="Mymensingh">Mymensingh</option>
+                  <option value="Rajshahi">Rajshahi</option>
+                  <option value="Sylhet">Sylhet</option>
+                  <option value="Madrasah">Madrasah</option>
+                  <option value="Technical">Technical</option>
+                  <option value="DIBS(Dhaka)">DIBS(Dhaka)</option></select>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="" class="form-label">GPA</label>
+              <input class="form-control" type="number" name="">
+            </div>
+            <div class="col-md-6">
+              <label for="" class="form-label">Program</label>
+              <select name="" id="" class="form-select">
+                <option disabled selected>Select Program</option>
+                <option value="Architecture (BArch) [5 years]">Architecture (BArch) [5 years]</option>
+                <option value="Bachelor of Business Administration">Bachelor of Business Administration</option>
+                <option value="Bachelor of Laws (LL.B)">Bachelor of Laws (LL.B)</option>
+                <option value="Computer Science &amp; Engineering (CSE)">Computer Science &amp; Engineering (CSE)</option>
+                <option value="Economics">Economics</option>
+                <option value="Electrical and Electronic Engineering (EEE)">Electrical and Electronic Engineering (EEE)</option>
+                <option value="English">English</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="Sociology">Sociology</option>
+                <option value="MA in English [1 year]">MA in English [1 year]</option>
+                <option value="MA in English [2 years]">MA in English [2 years]</option>
+                <option value="Master of Laws (LL.M) [1 year]">Master of Laws (LL.M) [1 year]</option>
+                <option value="Master of Laws (LL.M) [2 years]">Master of Laws (LL.M) [2 years]</option>
+                <option value="Master of Business Administration (MBA) [ Regular]">Master of Business Administration (MBA) [ Regular]</option>
+                <option value="Master of Business Administration (MBA) [ Executive]">Master of Business Administration (MBA) [ Executive]</option>
+                <option value="Master of Business Administration (MBA) [ BBA Holder]">Master of Business Administration (MBA) [ BBA Holder]</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  I agree with all the terms and conditions.
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </div>
+
+
+</body>
+</html>
